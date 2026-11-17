@@ -1,0 +1,131 @@
+[
+  {
+    "id": "WHO-AI-HEALTH",
+    "title": "Ethics and governance of artificial intelligence for health",
+    "publisher": "World Health Organization (WHO)",
+    "url": "https://www.who.int/publications/i/item/9789240029200",
+    "topics": [
+      "artificial intelligence",
+      "healthcare",
+      "health",
+      "ethics",
+      "governance"
+    ],
+    "content": "WHO guidance discusses ethical principles and governance for artificial intelligence in health. It emphasizes protecting human autonomy, promoting well-being and safety, transparency, accountability, inclusiveness, and responsiveness. AI systems used in health should be evaluated and governed so that benefits do not come at the expense of patient rights or safety."
+  },
+  {
+    "id": "UNESCO-AI-EDU",
+    "title": "Guidance for generative AI in education and research",
+    "publisher": "UNESCO",
+    "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+    "topics": [
+      "artificial intelligence",
+      "education",
+      "research",
+      "generative ai",
+      "ethics"
+    ],
+    "content": "UNESCO guidance addresses opportunities and risks of generative AI in education and research. It calls for a human-centred approach, attention to data privacy, age-appropriate use, institutional validation, and protection of human agency. Educational institutions should consider pedagogical goals and risks rather than adopting tools without review."
+  },
+  {
+    "id": "NIST-AI-RMF",
+    "title": "Artificial Intelligence Risk Management Framework",
+    "publisher": "National Institute of Standards and Technology (NIST)",
+    "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+    "topics": [
+      "artificial intelligence",
+      "risk",
+      "trustworthy ai",
+      "safety",
+      "governance"
+    ],
+    "content": "NIST's AI Risk Management Framework is intended to help organizations manage risks associated with AI systems and promote trustworthy and responsible AI. Its core functions are Govern, Map, Measure, and Manage. The framework supports identifying context, assessing risks, and taking action throughout the AI lifecycle."
+  },
+  {
+    "id": "UNEP-EMISSIONS",
+    "title": "Emissions Gap Report",
+    "publisher": "United Nations Environment Programme (UNEP)",
+    "url": "https://www.unep.org/resources/emissions-gap-report",
+    "topics": [
+      "climate change",
+      "emissions",
+      "environment",
+      "sustainability"
+    ],
+    "content": "UNEP's Emissions Gap Report series assesses the gap between projected greenhouse-gas emissions and pathways consistent with global climate goals. The report series discusses national commitments, implementation gaps, and the scale of emissions reductions needed. Users should consult the latest edition for current numerical estimates."
+  },
+  {
+    "id": "CISA-CYBER",
+    "title": "Secure Our World",
+    "publisher": "Cybersecurity and Infrastructure Security Agency (CISA)",
+    "url": "https://www.cisa.gov/secure-our-world",
+    "topics": [
+      "cybersecurity",
+      "security",
+      "passwords",
+      "multifactor authentication",
+      "phishing"
+    ],
+    "content": "CISA's Secure Our World campaign promotes practical cybersecurity habits, including using strong passwords, enabling multifactor authentication, recognizing and reporting phishing, and keeping software updated. These practices reduce common account and device security risks."
+  },
+  {
+    "id": "NASA-CLIMATE",
+    "title": "Climate Change: How Do We Know?",
+    "publisher": "NASA",
+    "url": "https://science.nasa.gov/climate-change/evidence/",
+    "topics": [
+      "climate change",
+      "environment",
+      "global warming",
+      "evidence"
+    ],
+    "content": "NASA presents multiple lines of evidence for a warming climate, including increasing global temperatures, warming oceans, shrinking ice sheets and glaciers, declining snow cover, and rising sea levels. The page explains observed indicators and links to scientific evidence."
+  }
+  ,
+
+{
+  "id": "FDA-AI-MEDICAL",
+  "title": "Artificial Intelligence-Enabled Medical Devices",
+  "publisher": "U.S. Food and Drug Administration (FDA)",
+  "url": "https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-enabled-medical-devices",
+  "topics": [
+    "artificial intelligence",
+    "healthcare",
+    "medical devices",
+    "medical imaging",
+    "diagnosis"
+  ],
+  "content": "The FDA provides information about artificial intelligence-enabled medical devices. These devices are regulated medical technologies and may support healthcare tasks such as analysis of medical images. Their safety and effectiveness require appropriate regulatory oversight."
+},
+{
+  "id": "NIBIB-MEDICAL-IMAGING",
+  "title": "Artificial Intelligence in Medical Imaging",
+  "publisher": "National Institute of Biomedical Imaging and Bioengineering (NIBIB)",
+  "url": "https://www.nibib.nih.gov/science-education/science-topics/artificial-intelligence-ai",
+  "topics": [
+    "artificial intelligence",
+    "healthcare",
+    "medical imaging",
+    "image analysis",
+    "diagnosis"
+  ],
+  "content": "Artificial intelligence can be applied to biomedical imaging and image analysis. AI methods can assist researchers and healthcare professionals in processing and interpreting medical images. Their outputs require appropriate validation and expert oversight."
+}
+,
+{
+  "id": "NIST-AI-CYBER",
+  "title": "Managing Cybersecurity and Privacy Risks in the Age of Artificial Intelligence",
+  "publisher": "National Institute of Standards and Technology (NIST)",
+  "url": "https://www.nist.gov/blogs/cybersecurity-insights/managing-cybersecurity-and-privacy-risks-age-artificial-intelligence",
+  "topics": [
+    "artificial intelligence",
+    "cybersecurity",
+    "threat detection",
+    "threat hunting",
+    "network security",
+    "privacy",
+    "incident response"
+  ],
+  "content": "NIST explains that AI can improve cybersecurity tools and capabilities. AI may support cybersecurity threat hunting and increase detection rates, although it can also increase false positives. Organizations should ensure AI security solutions are explainable and interpretable and adapt their cybersecurity practices to AI-enabled threats."
+}
+]
