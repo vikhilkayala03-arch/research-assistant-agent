@@ -1,49 +1,128 @@
-# Research Assistant Agent
+# AI-Powered Research Assistant Agent
 
-A controlled Python research workflow that accepts a research question, plans keyword searches, retrieves relevant entries from a curated local dataset, asks Gemini to synthesize only the retrieved evidence, and saves a Markdown report.
+An AI-powered research assistant built using Python, Streamlit, and Ollama. It accepts research questions, retrieves relevant information from a curated local dataset, generates evidence-based summaries using a locally running LLM, and creates Markdown research reports.
+
+## Features
+
+- Research question processing
+- Keyword-based search planning
+- Retrieval from a curated local dataset
+- AI-powered summarization using Ollama
+- Streamlit web dashboard
+- Research history
+- Markdown report generation
+- Downloadable research reports
+
+## Technologies Used
+
+- Python
+- Streamlit
+- Ollama
+- Qwen2.5-Coder 7B
+- JSON
 
 ## Requirements
-- Python 3.10+
-- Gemini API key from Google AI Studio
-- Internet access for Gemini API calls
 
-## Setup (Windows / VS Code)
-1. Open this folder in VS Code.
-2. Create and activate a virtual environment:
-   ```powershell
-   python -m venv .venv
-   .\.venv\Scripts\Activate.ps1
-   ```
-3. Install packages:
-   ```powershell
-   python -m pip install -r requirements.txt
-   ```
-4. Copy `.env.example` to `.env`.
-5. Put your newly created API key after `GEMINI_API_KEY=` in `.env`. Never share or upload `.env`.
-6. Run:
-   ```powershell
-   python app.py
-   ```
+- Python 3.10 or above
+- Ollama installed
+- Qwen2.5-Coder 7B model downloaded
 
-## Workflow
-Research request -> search planning -> source retrieval -> evidence-grounded Gemini summarization -> Markdown report.
+## Setup and Installation
+
+1. Clone or download this repository.
+2. Open the project folder in VS Code.
+3. Create a virtual environment:
+
+```powershell
+python -m venv .venv
+```
+
+4. Activate the environment:
+
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+5. Install the required packages:
+
+```powershell
+pip install -r requirements.txt
+```
+
+6. Download the Ollama model:
+
+```powershell
+ollama pull qwen2.5-coder:7b
+```
+
+7. Make sure Ollama is running.
+
+## Run the Application
+
+To start the Streamlit dashboard:
+
+```powershell
+streamlit run web_app.py
+```
+
+To run the command-line application:
+
+```powershell
+python app.py
+```
+
+## System Workflow
+
+Research Request → Search Planning → Source Retrieval → Ollama Summarization → Final Research Report
 
 ## Dataset
-`dataset/sources.json` is a small curated demonstration corpus with publisher names, source URLs, topic tags, and evidence notes. It is not a live web crawler. Add or update records only after checking the original publisher page.
+
+The project uses `dataset/sources.json`, a curated local dataset containing source information, URLs, topics, and evidence notes.
+
+**Note:** This project does not perform live web searches. Its retrieval process uses keyword-based matching against the local dataset.
 
 ## Testing
-Try these questions:
-- How is artificial intelligence used in healthcare and what ethical safeguards are important?
-- What are the main cybersecurity practices recommended for individuals?
-- What evidence is used to explain climate change?
-- How can generative AI affect education and research?
 
-Record whether retrieved sources are relevant, whether every major claim has a source ID, and whether the source page supports the claim. Do not claim that an API test succeeded until you have run it with your own key.
+The system was tested using different research questions, including:
+
+- AI applications in healthcare
+- AI applications in cybersecurity
+- Climate change research
+- Ethical AI
+- Irrelevant research questions
+
+The testing process evaluates source relevance, summary quality, and the ability to handle questions without relevant dataset sources.
 
 ## Limitations
-- Retrieval is keyword-based, not semantic search.
-- The local corpus is small and does not search the live web.
-- A source note may be incomplete or outdated; always open the original URL.
-- LLM summaries can omit context or make unsupported statements.
-- API availability, quotas, model names, and billing can change.
-- Human review is required before submitting or relying on a report.
+
+- Search is keyword-based, not semantic search.
+- The dataset is limited and locally curated.
+- Live web search is not implemented.
+- Summary quality depends on the retrieved evidence and local LLM.
+- Human verification of sources and generated reports is necessary.
+
+## Project Structure
+
+```text
+Research-Assistant-Agent/
+├── app.py
+├── web_app.py
+├── research_agent.py
+├── search_engine.py
+├── summarizer.py
+├── report_generator.py
+├── requirements.txt
+├── dataset/
+│   └── sources.json
+├── docs/
+├── screenshots/
+└── README.md
+```
+
+## Project Screenshots
+
+The `screenshots/` folder contains the research testing outputs for the project.
+
+## Author
+
+AI-Powered Research Assistant Agent Project
